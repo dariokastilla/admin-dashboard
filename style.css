@@ -74,6 +74,9 @@ ul li{
     grid-row-end: 2;
     display: flex;
     flex-direction: column;
+    position: relative; /* crea un nuevo contexto */
+    z-index: 10;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.15);
     
 }
 
@@ -82,6 +85,7 @@ ul li{
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
+    
 }
 
 .info{
@@ -231,6 +235,7 @@ ul li{
     border-radius: 5%;
     border-left: 8px solid rgb(255, 194, 28);
     justify-content: space-between;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
 }
 
 .project-name{
@@ -289,7 +294,8 @@ ul li{
     display: flex;
     flex-direction: column;
     gap: 30px;
-    padding: 20px
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
 }
 
 .dato-titulo{
@@ -313,7 +319,8 @@ font-size: 14px;
     display: flex;
     flex-direction: column;
     gap: 30px;
-    padding: 20px
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
 }
 
 .persona{
